@@ -1,0 +1,25 @@
+{
+    "server": {
+        "port": 3000,
+        "options": {
+            "url": "http://localhost",
+            "name": "review"
+        }
+    },
+    "mongoose": {
+        "uri": "mongodb://pepo.yandex:27017/pepo",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1
+                }
+            }
+        },
+        "duplicate_key_error_code": [11000, 11001]
+    },
+    "passport": {
+        "clientID": "11aa03f0a54faebe4e24",
+        "clientSecret": "2b84745c14f78dda4264eb6682b9e14282dbc468",
+        "callbackURL": "http://review-me.herokuapp.com/auth/github/callback"
+    }
+}

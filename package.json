@@ -1,0 +1,22 @@
+{
+  "name": "review-rest",
+  "version": "0.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "description": "rest server",
+  "main": "server.js",
+  "dependencies": {
+      "restify": ">= 3.0.0",
+      "passport": "0.2.1",
+      "passport-github": "*",
+      "mongoose": ">= 4.0.0",
+      "nconf": ">=0.6.9",
+      "async": ">= 0.9.0",
+      "lodash-node": ">= 2.4.1",
+      "request": ">=2.55.0",
+      "vow": "0.4.5"
+  },
+  "author": "mokcrimea",
+  "license": "ISC"
+}
